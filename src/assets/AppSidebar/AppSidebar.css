@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karma:wght@300;400;500;600;700&display=swap);
+
+.sidebar{
+    width: 18rem;
+    
+}
+
+.sidebar_header{
+    border-bottom-width: 1px;
+}
+
+.button_arrow_left{
+    --tw-rotate: 180deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.logo{
+    gap: 0.2rem;
+}
+
+.img_logo{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+}
+
+.logo_shape{
+    border-radius: 100%;
+}
+
+.logo_name{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    font-family: "Karma", serif;
+}
+
+
+.recent{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: hsl(var(--muted-foreground));
+}
+
+.clock{
+    width: 1rem;
+    height: 1rem;
+}
+
+.topics{
+    width: 100%;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.see_more{
+    width: 100%;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: hsl(var(--primary));
+}
+
+.new_chat{
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.new_chat_text{
+    width: 1rem;
+    height: 1rem;
+}
+
+.more{
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.more_text{
+    width: 1rem;
+    height: 1rem;
+}
+
+.more_content{
+    width: var(--radix-popper-anchor-width);
+}
