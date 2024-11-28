@@ -273,4 +273,11 @@
       transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+  .chatbox-container {
+    width: 100%;
+  }
+}
+
   
